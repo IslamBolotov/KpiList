@@ -1,0 +1,272 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+body{
+    background-color: aqua;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    height: inherit;
+    top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 5%;
+    background-color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-bar{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: silver;
+    transition: ease 0.8s;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+td,th{
+    border: 3px solid #56433D;
+    padding: 3px;
+    height: 50px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+table{
+    background-color: #56433D;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 5px;
+    width: 80%;
+}
+
+.for-new-btn, .for-new-btn1{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+    padding: 5px;
+}
+
+.next1, .next2, .previous2, .previous1{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 3px;
+    background-color: cadetblue;
+}
+.next:hover, .previous:hover{
+    transition: 0.6s;
+    cursor: pointer;
+    background-color: brown;
+    color: #fff;
+}
+
+
+.row-2, .row-3{
+    justify-content: center;
+    height: 750px;
+}
+
+
+.btn-add{
+    padding: 8px;
+    margin-left: 10px;
+}
+
+
+.main-modal,.modal-info,.main-modal-change {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(204, 196, 196, 0.8);
+	display: none;
+}
+
+
+.modal,.modal-change {
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: green;
+	color: #fff;
+}
+.mod-in{
+    color: black;
+    background-color: white;
+}
+
+
+h4{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.close-modal, .close-info, .close-change-modal{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border:0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.new-inp{
+    width: 250px;
+}
+
+.btn-add{
+    font-size: 20px;
+    background-color: silver;
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    color: #fff;
+    background-color: green;
+    box-shadow: 0px 2px  2px 3px black;
+    transition:  0.5s;
+}
+
+.btn-ide{
+    border: 0;
+}
+
+.btn-info, .btn-delete, .btn-change{
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.row-1{
+    border-bottom: 2px solid black;
+    
+}
+
+canvas{
+    margin-top: 150px;
+}
+
+.images{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.dd{
+    padding: 7px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+.podium{
+    position: relative;
+    text-align: center;
+}
+
+.podium-img{
+    width: 80%;
+}
+.picture{
+    margin: 0;
+    padding: 3px;
+}
+
+.picture-ph{
+    width: 80px;
+    margin-right: -5px;
+    margin-left: auto;
+}
+
+.podium-photo-1{
+    width: 30%;
+    position: absolute;
+    background: no-repeat -30px 0;
+    z-index: 1;
+    margin-left: -55%;
+    margin-top: 13%;
+    border-radius: 100%;
+    box-shadow: 0 0 2px 8px gold;
+}
+
+.podium-photo-2{
+    width: 18%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -75%;
+    margin-top: 28%;
+    border-radius: 100%;
+    box-shadow: 0 0 5px 5px silver;
+}
+
+.podium-photo-3{
+    width: 16%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -22%;
+    margin-top: 30%;
+    border-radius: 100%;
+    box-shadow: 0 0 2px 5px #cd7f32;
+}
+.podium-text1{
+    
+    z-index: 3;
+    margin-left: -55%;
+    margin-top: 13%;
+}
+.podium-text2{
+    
+    z-index: 3;
+    margin-left: -55%;
+    margin-top: 13%;
+}
+.podium-text3{
+    
+    z-index: 3;
+    margin-left: -55%;
+    margin-top: 13%;
+}
+
+.search-block{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-inp{
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid ;
+}
+
+

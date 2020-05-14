@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="./js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="../src/jquery.jqplot.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+    <script src="https://use.fontawesome.com/a51e561877.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row row-1" id="yak">
+            <div class="logo"><img src="./picture/600px-KPI_2019_infobox.png" alt="" width="100px"></div>
+            <div class="nav">
+                <ul class='nav-bar'>
+                    <li>List of Students</li>
+                    <li>List KPI</li>
+                    <li>CHART</li>
+                    <li>TOPS</li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-block">
+            <input type="text" placeholder="search" class="search-inp">
+        </div>
+        <h1>List Of Students</h1>
+        <div class="row row-2">  
+            <table class="listOfStudents">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Age</th>
+                        <th>email</th>
+                        <th>Phone Number</th>
+                        <th>...</th>
+                        <th colspan="2"class="btn-add" ><i class="fa fa-plus" aria-hidden="true"></i> Add</th>
+                        
+                    </tr>
+                </thead>
+                <tbody class="main-tbody">
+                </tbody>
+            </table>
+        </div>
+                <div class="for-new-btn">
+                    
+                </div>
+        <h1>KPI List</h1>
+        <div class="row row-3">
+            <table class="KPI-list">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Late</th>
+                        <th>Tasks</th>
+                        <th>Interview</th>
+                        <th>Presentation</th>
+                        <th>Extra</th>
+                        <th>Total</th>
+                        <th>...</th>
+                    </tr>
+                </thead>
+                <tbody class="second-tbody">
+                </tbody>
+            </table>
+        </div>
+        <div class="for-new-btn1">
+        </div>
+        <div class="main-modal">
+            <div class="modal">
+                <button class="close-modal"><i class="fa fa-window-close-o" aria-hidden="true"></i></button>
+                <h4>Имя</h4>
+                <input type="text" class="name-inp new-inp">
+                <h4>Фимилия</h4>
+                <input type="text" class="surName-inp new-inp">
+                <h4>Возраст</h4>
+                <input type="text" class="age-inp new-inp">
+                <h4>Email</h4>
+                <input type="text" class="email-inp new-inp">
+                <h4>Номер телефона</h4>
+                <input type="text" class="phone-inp new-inp">
+                <h4>Ссылка на фото</h4>
+                <input type="text" class="photo-inp new-inp">
+                <h4><button class="ok-btn">Добавить</button></h4>
+
+            </div>
+        </div>
+        <div class=" modal-info">
+            <div class="modal mod-in">
+                <button class="close-info"><i class="fa fa-window-close-o" aria-hidden="true"></i></button>
+                <div class="info-div">
+
+                </div>
+            </div>
+        </div>
+        <div class="main-modal-change">
+            <div class="modal-change">
+                
+                
+
+            </div>
+        </div>
+        <canvas id="myChart"></canvas>
+        <h1 style="margin-top: 100px;">Winners</h1>
+        <div class="podium">
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
